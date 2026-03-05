@@ -1,0 +1,10 @@
+{
+  "duckdb.databases": [
+    {
+      "alias": "redcap",
+      "type": "manual",
+      "sql": "ATTACH DATABASE 'data/warehouse/redcap.duckdb' AS redcap (TYPE duckdb, STORAGE_VERSION 'v1.4.3', ENCRYPTION_KEY 'prostata' READ_ONLY)",
+      "attached": false
+    }
+  ]
+}
